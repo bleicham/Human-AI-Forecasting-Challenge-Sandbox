@@ -1,4 +1,4 @@
-date,target,location,observation
+target_end_date,target,location,observation
 2020-08-08,wk inc flu hosp,US,0
 2020-08-15,wk inc flu hosp,US,0
 2020-08-22,wk inc flu hosp,US,0
