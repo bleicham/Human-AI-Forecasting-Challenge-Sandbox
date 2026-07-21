@@ -1,0 +1,27 @@
+team_name: "CPHMR, Clemson University"
+team_abbr: "Amanda"
+model_name: "XGBoost"
+model_abbr: "XGBoost"
+model_contributors: [
+  {
+    "name": "Amanda Bleichrodt",
+    "affiliation": "Clemson University, South Carolina",
+    "email": "ambleic@clemson.edu"    },
+    {
+    "name": "Lior Rennert",
+    "affiliation": "Clemson University, South Carolina",
+    "email": "liorr@clemson.edu"    }
+]
+license: "CC-BY-4.0"
+designated_model: true
+data_inputs: "CDC weekly flu hospital admissions (NHSN)"
+methods: "XGBoost Forecast Model."
+methods_long: "XGBoost is a gradient-boosted regression tree model that captures nonlinear
+  relationships and interactions among predictors without assuming a fixed
+  functional form, making it well-suited for modeling complex disease dynamics."
+ensemble_of_models: false
+ensemble_of_hub_models: false
+model_version: "1.0"
+team_funding: "NA"
+backfill_adjustment: "false"
+website_url: "https://github.com/bleicham/SISMID-2026" 
