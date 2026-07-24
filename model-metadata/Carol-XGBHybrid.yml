@@ -1,5 +1,5 @@
-team_name: "Carol Moreira"
-team_abbr: "Carol"
+team_name: "carol-codex"
+team_abbr: "cc"
 model_name: "Horizon-specific XGBoost Hybrid"
 model_abbr: "XGBHybrid"
 model_contributors:
