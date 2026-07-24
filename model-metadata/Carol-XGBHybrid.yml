@@ -1,0 +1,18 @@
+team_name: "Carol Moreira"
+team_abbr: "Carol"
+model_name: "Horizon-specific XGBoost Hybrid"
+model_abbr: "XGBHybrid"
+model_contributors:
+  - name: "Carol Moreira"
+    affiliation: "University of Notre Dame"
+    email: "mdesouz2@nd.edu"
+license: "CC-BY-4.0"
+designated_model: true
+data_inputs: "CDC NHSN weekly influenza hospital admissions; Activity 5 ensemble and Activity 7 tuned XGBoost component forecasts."
+methods: "Horizon-specific hybrid: XGBoost blend for horizon 1 and tuned XGBoost quantiles for horizons 2 and 3."
+methods_long: "Expanding-window, leakage-controlled direct quantile XGBoost forecasts use recent admissions lags and MMWR seasonal harmonics. The selected hybrid uses the validated Activity 7 XGBoost blend for the one-week horizon and raw tuned XGBoost for two- and three-week horizons. Quantiles are reconciled to be nonnegative, integer-valued, and monotone. The model was selected by held-out weighted interval score across the 2025-26 retrospective season."
+ensemble_of_models: true
+ensemble_of_hub_models: false
+model_version: "1.0"
+repo_url: "https://github.com/carolsmoreira/SISMID-2026-HumanAI"
+backfill_adjustment: "false"
