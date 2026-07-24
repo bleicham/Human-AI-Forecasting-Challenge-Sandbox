@@ -1,12 +1,12 @@
-team_name: "CPHMR, Clemson University"
-team_abbr: "Amanda"
+team_name: "SISMID, Texas Tech University"
+team_abbr: "Gihani"
 model_name: "ARIMA"
 model_abbr: "ARIMA"
 model_contributors: [
   {
-    "name": "Amanda Bleichrodt",
-    "affiliation": "Clemson University, South Carolina",
-    "email": "ambleic@clemson.edu"    },
+    "name": "Gihani Wickramasinghe",
+    "affiliation": "Texas Tech University, Texas",
+    "email": "gwickram@ttu.edu"    },
     {
     "name": "Lior Rennert",
     "affiliation": "Clemson University, South Carolina",
