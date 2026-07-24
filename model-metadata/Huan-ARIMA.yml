@@ -1,0 +1,26 @@
+team_name: "Huan"
+team_abbr: "Huan"
+model_name: "ARIMA"
+model_abbr: "ARIMA"
+model_contributors: [
+  {
+    "name": "Huan",
+    "affiliation": "Emory",
+    "email": "email@email.com"
+  }
+]
+license: "CC-BY-4.0"
+designated_model: false
+data_inputs: "CDC weekly US flu hospital admissions (NHSN)"
+methods: "Non-seasonal ARIMA (auto.arima) on weekly admissions."
+methods_long: "Non-seasonal ARIMA with (p,d,q) orders selected automatically by
+  forecast::auto.arima on the weekly US influenza hospital admissions series
+  (wastewater-overlap window, 2024-07 onward), refit on an expanding window at
+  each reference date. Forecasts 1-3 weeks ahead with Gaussian prediction
+  intervals, clamped at zero and rounded to integer counts."
+ensemble_of_models: false
+ensemble_of_hub_models: false
+model_version: "1.0"
+team_funding: "NA"
+backfill_adjustment: "false"
+website_url: "https://github.com/gladcolor/Human-AI-Forecasting-Challenge-Sandbox"

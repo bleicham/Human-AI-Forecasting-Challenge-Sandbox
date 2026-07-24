@@ -1,0 +1,27 @@
+team_name: "Huan"
+team_abbr: "Huan"
+model_name: "ARIMA with wastewater"
+model_abbr: "ARIMAWW"
+model_contributors: [
+  {
+    "name": "Huan",
+    "affiliation": "Emory",
+    "email": "email@email.com"
+  }
+]
+license: "CC-BY-4.0"
+designated_model: false
+data_inputs: "CDC weekly US flu hospital admissions (NHSN); NWSS national wastewater influenza A viral activity level (WVAL)"
+methods: "Regression with ARIMA errors (ARIMAX) using wastewater as a regressor."
+methods_long: "forecast::auto.arima fit to weekly US influenza hospital admissions
+  with the NWSS national wastewater viral activity level (WVAL) as an external
+  regressor, on an expanding window (2024-07 onward) refit at each reference date.
+  Future WVAL is forecast forward with its own auto.arima and supplied as the
+  future regressor. Forecasts 1-3 weeks ahead, clamped at zero and rounded to
+  integer counts."
+ensemble_of_models: false
+ensemble_of_hub_models: false
+model_version: "1.0"
+team_funding: "NA"
+backfill_adjustment: "false"
+website_url: "https://github.com/gladcolor/Human-AI-Forecasting-Challenge-Sandbox"
