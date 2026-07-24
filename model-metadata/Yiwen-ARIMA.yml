@@ -1,0 +1,22 @@
+team_name: "Yiwen"
+team_abbr: "Yiwen"
+model_name: "ARIMA"
+model_abbr: "ARIMA"
+model_contributors:
+  - name: "Yiwen Shih"
+    affiliation: "CDC"
+    email: "yiwshi112@gmail.com"
+license: "CC-BY-4.0"
+designated_model: true
+data_inputs: >-
+  Finalized national NHSN weekly influenza hospital admissions.
+methods: >-
+  Expanding-window auto-ARIMA forecasts for 1-, 2-, and 3-week horizons.
+methods_long: >-
+  For each reference date, an auto-ARIMA model was fit to all national
+  weekly influenza admissions available through that date. A single
+  three-step forecast supplied horizons 1-3. Twenty-three non-negative
+  quantiles were obtained from the fitted Gaussian forecast distribution.
+ensemble_of_models: false
+ensemble_of_hub_models: false
+repo_url: "https://github.com/YWS25/Human-AI-Forecasting-Challenge-Sandbox"
