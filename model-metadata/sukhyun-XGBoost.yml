@@ -1,15 +1,11 @@
-team_name: "CPHMR, Clemson University"
-team_abbr: "Amanda"
+team_name: "sukhyun"
+team_abbr: "SR"
 model_name: "XGBoost"
 model_abbr: "XGBoost"
 model_contributors: [
-  {
-    "name": "Amanda Bleichrodt",
-    "affiliation": "Clemson University, South Carolina",
-    "email": "ambleic@clemson.edu"    },
     {
-    "name": "Lior Rennert",
-    "affiliation": "Clemson University, South Carolina",
+    "name": "sukhyun",
+    "affiliation": "CUK, Korea",
     "email": "liorr@clemson.edu"    }
 ]
 license: "CC-BY-4.0"
