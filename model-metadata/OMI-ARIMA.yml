@@ -1,0 +1,22 @@
+team_name: "UT Austin"
+team_abbr: "OMI"
+model_name: "ARIMA"
+model_abbr: "ARIMA"
+model_contributors:
+  - name: "Oluwasegun Ibrahim"
+    affiliation: "UT Austin"
+    email: "ibrosege01@gmail.com"
+  - name: "Lior Rennert"
+    affiliation: "Clemson University, South Carolina"
+    email: "liorr@clemson.edu"
+license: "CC-BY-4.0"
+designated_model: true
+data_inputs: "CDC weekly flu hospital admissions (NHSN)"
+methods: "ARIMA forecast model."
+methods_long: "ARIMA is a classical time series model that represents the current value of a series as a linear function of its own recent values (autoregressive terms) and recent forecast errors (moving average terms), after differencing to remove trend. Model orders are selected automatically for each reference date using auto.arima() on an expanding window of weekly hospital admissions, and 1- to 3-week-ahead predictive intervals are converted to the required quantiles."
+ensemble_of_models: false
+ensemble_of_hub_models: false
+model_version: "1.0"
+team_funding: "NA"
+backfill_adjustment: false
+website_url: "https://github.com/bleicham/SISMID-2026"
