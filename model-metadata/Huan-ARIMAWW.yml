@@ -10,7 +10,7 @@ model_contributors: [
   }
 ]
 license: "CC-BY-4.0"
-designated_model: false
+designated_model: true
 data_inputs: "CDC weekly US flu hospital admissions (NHSN); NWSS national wastewater influenza A viral activity level (WVAL)"
 methods: "Regression with ARIMA errors (ARIMAX) using wastewater as a regressor."
 methods_long: "forecast::auto.arima fit to weekly US influenza hospital admissions
