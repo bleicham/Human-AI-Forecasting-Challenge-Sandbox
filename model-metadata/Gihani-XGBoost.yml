@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:model-metadata/Gihani-XGBoost.yml
 team_name: "SISMID, Texas Tech University"
 team_abbr: "Gihani"
 model_name: "XGBoost"
@@ -8,16 +7,9 @@ model_contributors: [
     "name": "Gihani Wickramasinghe",
     "affiliation": "Texas Tech University, Texas",
     "email": "gwickram@ttu.edu"    },
-========
-team_name: "sukhyun"
-team_abbr: "SR"
-model_name: "XGBoost"
-model_abbr: "XGBoost"
-model_contributors: [
->>>>>>>> 632a44cbc825052596f3e30f3d21fc83e1bdb5f7:model-metadata/sukhyun-XGBoost.yml
     {
-    "name": "sukhyun",
-    "affiliation": "CUK, Korea",
+    "name": "Lior Rennert",
+    "affiliation": "Clemson University, South Carolina",
     "email": "liorr@clemson.edu"    }
 ]
 license: "CC-BY-4.0"
