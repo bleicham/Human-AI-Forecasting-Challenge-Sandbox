@@ -10,7 +10,7 @@ model_contributors: [
   }
 ]
 license: "CC-BY-4.0"
-designated_model: false
+designated_model: true
 data_inputs: "CDC weekly US flu hospital admissions (NHSN)"
 methods: "XGBoost quantile regression on admissions features."
 methods_long: "Gradient-boosted regression trees (XGBoost, reg:quantileerror)
