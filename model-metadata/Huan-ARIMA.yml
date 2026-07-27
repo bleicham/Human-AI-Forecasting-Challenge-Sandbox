@@ -10,7 +10,7 @@ model_contributors: [
   }
 ]
 license: "CC-BY-4.0"
-designated_model: false
+designated_model: true
 data_inputs: "CDC weekly US flu hospital admissions (NHSN)"
 methods: "Non-seasonal ARIMA (auto.arima) on weekly admissions."
 methods_long: "Non-seasonal ARIMA with (p,d,q) orders selected automatically by
